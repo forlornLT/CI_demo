@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                bat 'npm run build'
+                bat 'd: & cd d:\\weiwork\\todo-list\\todo-list & npm help npm'
             }
         }
         stage('Deploy') {
